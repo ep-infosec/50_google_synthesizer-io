@@ -1,0 +1,13 @@
+[package]
+name = "synthesizer-io"
+version = "0.1.0"
+license = "Apache-2.0"
+authors = ["Raph Levien <raph@google.com>"]
+
+[dependencies]
+coreaudio-rs = "0.9"
+coremidi = "0.3"
+time = "0.1"
+
+[dependencies.synthesizer-io-core]
+path = "./synthesizer-io-core"
